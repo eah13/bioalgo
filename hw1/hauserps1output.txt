@@ -1,0 +1,117 @@
+Reading insulin.fa ...
+Reading rhodopsin.fa ...
+Reading collagen1.fa ...
+Reading hemoglobinB.fa ...
+--------------------------------------
+Note: The colors below require an ASCII terminal environment to
+display properly.  Any *nix-like terminal environment should suffice
+#    Amino Acid  Codon   %
+--------------------------------------
+Alanine : 	9.5%
+1 	Alanine        GCA       6.6%
+2 	Alanine        GCC      [32m37.6%[0m
+3 	Alanine        GCG       2.5%
+4 	Alanine        GCT      [33m53.3%[0m
+--------------------------------------
+Arginine : 	4.1%
+5 	Arginine       AGA      10.5%
+6 	Arginine       AGG       8.1%
+7 	Arginine       CGA      17.4%
+8 	Arginine       CGC      20.9%
+9 	Arginine       CGG       8.1%
+10 	Arginine       CGT      [32m34.9%[0m
+--------------------------------------
+Asparagine : 	2.6%
+11 	Asparagine     AAC      [31m79.2%[0m
+12 	Asparagine     AAT      20.8%
+--------------------------------------
+Aspartic Acid : 	3.8%
+13 	Aspartic Acid  GAC      [33m51.9%[0m
+14 	Aspartic Acid  GAT      [32m48.1%[0m
+--------------------------------------
+Cysteine : 	1.7%
+15 	Cysteine       TGC      [31m80.6%[0m
+16 	Cysteine       TGT      19.4%
+--------------------------------------
+Glutamic Acid : 	5.2%
+17 	Glutamic Acid  GAA      [32m34.6%[0m
+18 	Glutamic Acid  GAG      [33m65.4%[0m
+--------------------------------------
+Glutamine : 	3.4%
+19 	Glutamine      CAA      [32m28.2%[0m
+20 	Glutamine      CAG      [33m71.8%[0m
+--------------------------------------
+Glycine : 	21.1%
+21 	Glycine        GGA      18.5%
+22 	Glycine        GGC      [32m34.5%[0m
+23 	Glycine        GGG       4.1%
+24 	Glycine        GGT      [32m42.9%[0m
+--------------------------------------
+Histidine : 	1.2%
+25 	Histidine      CAC      [33m72.0%[0m
+26 	Histidine      CAT      [32m28.0%[0m
+--------------------------------------
+Isoleucine : 	2.4%
+27 	Isoleucine     ATA       2.0%
+28 	Isoleucine     ATC      [31m76.0%[0m
+29 	Isoleucine     ATT      22.0%
+--------------------------------------
+Leucine : 	5.5%
+30 	Leucine        CTA       2.6%
+31 	Leucine        CTC      [32m31.3%[0m
+32 	Leucine        CTG      [33m53.9%[0m
+33 	Leucine        CTT       4.3%
+34 	Leucine        TTA       0.9%
+35 	Leucine        TTG       7.0%
+--------------------------------------
+Lysine : 	3.9%
+36 	Lysine         AAA      [32m30.9%[0m
+37 	Lysine         AAG      [33m69.1%[0m
+--------------------------------------
+Methionine : 	1.5%
+38 	Methionine     ATG      [31m100.0%[0m
+--------------------------------------
+Phenylalanine : 	3.3%
+39 	Phenylalanine  TTC      [31m79.4%[0m
+40 	Phenylalanine  TTT      20.6%
+--------------------------------------
+Proline : 	15.0%
+41 	Proline        CCA       6.1%
+42 	Proline        CCC      [32m41.2%[0m
+43 	Proline        CCG       0.6%
+44 	Proline        CCT      [33m52.1%[0m
+--------------------------------------
+Serine : 	4.2%
+45 	Serine         AGC      [32m33.3%[0m
+46 	Serine         AGT      10.3%
+47 	Serine         TCA       6.9%
+48 	Serine         TCC      21.8%
+49 	Serine         TCG       1.1%
+50 	Serine         TCT      [32m26.4%[0m
+--------------------------------------
+Stop : 	0.2%
+51 	Stop           TAA      [31m75.0%[0m
+52 	Stop           TAG      [32m25.0%[0m
+53 	Stop           TGA       0.0%
+--------------------------------------
+Threonine : 	3.8%
+54 	Threonine      ACA      10.3%
+55 	Threonine      ACC      [33m53.8%[0m
+56 	Threonine      ACG      10.3%
+57 	Threonine      ACT      [32m25.6%[0m
+--------------------------------------
+Tryptophan : 	0.7%
+58 	Tryptophan     TGG      [31m100.0%[0m
+--------------------------------------
+Tyrosine : 	1.9%
+59 	Tyrosine       TAC      [31m82.1%[0m
+60 	Tyrosine       TAT      17.9%
+--------------------------------------
+Valine : 	4.9%
+61 	Valine         GTA       2.0%
+62 	Valine         GTC      [32m31.7%[0m
+63 	Valine         GTG      [32m48.5%[0m
+64 	Valine         GTT      17.8%
+--------------------------------------
+--------------------------------------
+Total codons: 			 2073

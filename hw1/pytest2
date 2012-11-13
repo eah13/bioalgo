@@ -1,0 +1,96 @@
+#!/usr/local/bin/python
+
+'''
+A simple relative frequency calculator for mRNA sequences.
+Takes a .fa file and offset and returns relative frequencies
+of each codon-amino acid pair, expressed as a percent.
+'''
+
+from sys import argv
+from itertools import product
+from termcolor import colored
+from operator import itemgetter
+
+# = Read in files
+aminocodons = open("aminocodons.txt")
+
+# Initialize array and populate from aminocodons
+b=[[0 for i in range(3)] for j in range(64)]
+
+for r in range(64):
+	b[r][0]= aminocodons.read(3)
+	aminocodons.seek(1,1)
+	b[r][1]= aminocodons.readline().rstrip('\n')
+	#aminocodons.readline()
+
+#Initialize counting array
+aminoacids = []
+acidcounts = []
+for row in b:   
+	aminoacids.append(row[1])
+for row in set(aminoacids): 
+	acidcounts.append([row,0])
+
+# Add one for each match
+for n, i in enumerate(argv):
+	# Skip the 0th arg, which is the script name
+	if n == 0:
+		continue
+	# For every odd argument, process it as a sequence file.
+	if n % 2 != 0:
+		offset = int(argv[n + 1])	# Next arg is offset
+		currentfile = open(i)
+		currentfile.readline()		# Skip the junk
+		currentfile.seek(offset,1)	# Go to offset
+		currentseq = ''
+		for line in currentfile.read().splitlines():
+				currentseq += line
+# for i in xrange(offset-1, len(seq) -3, 3)
+#    s[i::i+3]
+
+	for m,r in product(range(len(currentseq[0::3])),range(64)):
+		current_codon = currentseq[(m * 3):(m*3 + 3)]
+		if b[r][0] == current_codon:
+			# Break the loop if it's a stop codon
+			if b[r][1] == "Stop":
+				#Increment count for matches
+				b[r][2] = b[r][2] + 1
+				break
+			# Increment count for matches
+			b[r][2] = b[r][2] + 1
+	currentfile.close()
+#Get acid counts by iterating thru b
+totalcodons = 0
+for row in b:
+	for aa in acidcounts:
+		if row[1] == aa[0]:
+			aa[1] = aa[1] + row[2]
+			totalcodons = totalcodons + row[2] 
+
+# Get b sorted by amino acids as c
+c = sorted(b, key=itemgetter(1,0))
+
+# Print table of c, except use aminocounts to calculate percentages
+print "#	Amino Acid	Codon	%" 
+for n, row in enumerate(c):
+	aacount=1
+	if c[n-1][1] != c[n][1]:
+		print "-" * 36
+	for count in acidcounts:
+		if count[0] == row[1]:
+			if count[1] != 0:
+				aacount = count[1]
+			break
+	percent = float(row[2])/float(aacount)
+	if percent >= .75:
+		print n+1, '\t', row[1].ljust(14), row[0].ljust(8), colored("{:.0%}".format(percent).rjust(4),'red')
+	if .75 > percent >= .5:
+		print n+1, '\t', row[1].ljust(14), row[0].ljust(8), colored("{:.0%}".format(percent).rjust(4),'yellow')
+	if .5 > percent >= .25:
+		print n+1, '\t', row[1].ljust(14), row[0].ljust(8), colored("{:.0%}".format(percent).rjust(4),'green')
+	if .25 > percent >= 0:
+		print n+1, '\t', row[1].ljust(14), row[0].ljust(8), "{:.0%}".format(percent).rjust(4)
+
+print "-" * 36
+print "-" * 36
+print "Total codons:", '\t\t\t', "{0}".format(totalcodons).rjust(4)
