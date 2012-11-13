@@ -8,8 +8,11 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{amssymb}
-
 \usepackage{listings}
+\lstset{language=Octave,
+  basicstyle=\footnotesize,tabsize=3,
+commentstyle=\color{blue},
+morecomment=[l]{\#}}
 \usepackage{fontspec,xltxtra,xunicode}
 \defaultfontfeatures{Mapping=tex-text}
 \setromanfont[Mapping=tex-text]{Hoefler Text}
@@ -21,6 +24,10 @@
 \begin{document}
 \maketitle
 \section*{Question 1}
+\subsection*{a}  While both Hash-table and Suffix trees would correctly solve this problem, they may be prefered over one another depending on the circumstances.  Suffix trees have a run time of $O(m)$, making them preferable \textit{ceteris paribus}.  But there is computational and engineering overhead to generate the suffix tree. Hash tables are implemented natively in many programming languages (such as Python's \lstinline{dict} structure), making them easier to implement in some situations.
+
+That said, for our purposes computational and engineering overhead are negligible when compared to runtime savings, especially given that $n$ is likely to be very long.  So, the suffix tree structure is most appropriate for our purposes here.
+
 \subsection*{b} Assuming the suffix table for $m$ is already constructed as a graph, an algorithm to find the number of occurrences of $m$ in $n$ is
 \begin{lstlisting}[language=python, mathescape=true]
 
@@ -41,7 +48,12 @@ for edge in childEdge($s_n$) == $m$[position:len(edge_label)]
 $O(m)$.
 
 \section*{Question 2}
+% Hash Table Scheme
+\subsection*{a} %Hash function
 
+\subsection*{b} %Hash table
+
+\subsection*{c} %Students with score = 4
 \section*{Question 3}
 
 \section*{Question 4}
@@ -51,4 +63,4 @@ $O(m)$.
 \section*{Question 6: Programming exercise}
 
 
-\end{document}
+\end{document} 
