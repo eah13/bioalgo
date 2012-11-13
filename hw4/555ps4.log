@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2012.6.30)  13 NOV 2012 10:40
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2012.6.30)  13 NOV 2012 11:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -907,17 +907,20 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
 ) [1
 
 ]
-(./555ps4.aux) ) 
+[2] (./555ps4.aux) ) 
 Here is how much of TeX's memory you used:
- 16662 strings out of 494004
- 339815 string characters out of 3150890
- 340944 words of memory out of 3000000
- 19731 multiletter control sequences out of 15000+200000
- 11108 words of font info for 71 fonts, out of 3000000 for 9000
+ 16722 strings out of 494004
+ 340645 string characters out of 3150890
+ 367224 words of memory out of 3000000
+ 19785 multiletter control sequences out of 15000+200000
+ 11769 words of font info for 76 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  36i,6n,46p,596b,1486s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on 555ps4.pdf (1 page).
+Output written on 555ps4.pdf (2 pages).

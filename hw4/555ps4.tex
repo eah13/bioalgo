@@ -21,6 +21,24 @@
 \begin{document}
 \maketitle
 \section*{Question 1}
+\subsection*{b} Assuming the suffix table for $m$ is already constructed as a graph, an algorithm to find the number of occurrences of $m$ in $n$ is
+\begin{lstlisting}[language=python, mathescape=true]
+
+Preprocess $n$ into suffix tree $s_n$ in $O(n)$.
+
+SuffixSearch($m$, $s_n$)
+position = 0
+for edge in childEdge($s_n$) == $m$[position:len(edge_label)]
+	if descendent vertex has child edge == $m$[position +1:len(child_edge_label)]
+		SuffixSearch($m$[position+1:len($m$)], descendants(edge)
+	else
+		matches = count(descendants(edge))
+		return matches
+
+\end{lstlisting}
+
+\subsection*{c}  The time complexity is %insert precise calculation 
+$O(m)$.
 
 \section*{Question 2}
 
