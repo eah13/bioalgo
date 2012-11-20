@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2012.6.30)  18 NOV 2012 17:55
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2012.6.30)  20 NOV 2012 10:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -144,131 +144,6 @@ File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/qtree/qtree.sty
-Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
-Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pict2e/pict2e.sty
-Package: pict2e 2011/04/05 v0.2y Improved picture commands (HjG,RN,JT)
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pict2e/pict2e.cfg
-File: pict2e.cfg 2011/04/05 v0.1t pict2e configuration for teTeX/TeXLive
-)
-Package pict2e Info: Driver file: xetex.def on input line 119.
-Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 121.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pict2e/p2e-xetex.def
-File: p2e-xetex.def 2011/04/05 v0.1t Driver-dependant file (RN,HjG,JT)
-)
-\pIIe@GRAPH=\toks21
-\@arclen=\dimen122
-\@arcrad=\dimen123
-\@tempdimd=\dimen124
-)
-\c@treecount=\count103
-\c@branchcount=\count104
-\parentbox=\box28
-\treebox=\box29
-\treeboxone=\box30
-\treeboxtwo=\box31
-\treeboxthree=\box32
-\treeboxfour=\box33
-\treeboxfive=\box34
-\treeboxsix=\box35
-\treeboxseven=\box36
-\treeboxeight=\box37
-\treeboxnine=\box38
-\treeboxten=\box39
-\treeboxeleven=\box40
-\treeboxtwelve=\box41
-\treeboxthirteen=\box42
-\treeboxfourteen=\box43
-\treeboxfifteen=\box44
-\treeboxsixteen=\box45
-\treeboxseventeen=\box46
-\treeboxeighteen=\box47
-\treeboxnineteen=\box48
-\treeboxtwenty=\box49
-\treeoffsetone=\skip46
-\treeoffsettwo=\skip47
-\treeoffsetthree=\skip48
-\treeoffsetfour=\skip49
-\treeoffsetfive=\skip50
-\treeoffsetsix=\skip51
-\treeoffsetseven=\skip52
-\treeoffseteight=\skip53
-\treeoffsetnine=\skip54
-\treeoffsetten=\skip55
-\treeoffseteleven=\skip56
-\treeoffsettwelve=\skip57
-\treeoffsetthirteen=\skip58
-\treeoffsetfourteen=\skip59
-\treeoffsetfifteen=\skip60
-\treeoffsetsixteen=\skip61
-\treeoffsetseventeen=\skip62
-\treeoffseteighteen=\skip63
-\treeoffsetnineteen=\skip64
-\treeoffsettwenty=\skip65
-\treeshiftone=\skip66
-\treeshifttwo=\skip67
-\treeshiftthree=\skip68
-\treeshiftfour=\skip69
-\treeshiftfive=\skip70
-\treeshiftsix=\skip71
-\treeshiftseven=\skip72
-\treeshifteight=\skip73
-\treeshiftnine=\skip74
-\treeshiftten=\skip75
-\treeshifteleven=\skip76
-\treeshifttwelve=\skip77
-\treeshiftthirteen=\skip78
-\treeshiftfourteen=\skip79
-\treeshiftfifteen=\skip80
-\treeshiftsixteen=\skip81
-\treeshiftseventeen=\skip82
-\treeshifteighteen=\skip83
-\treeshiftnineteen=\skip84
-\treeshifttwenty=\skip85
-\treewidthone=\skip86
-\treewidthtwo=\skip87
-\treewidththree=\skip88
-\treewidthfour=\skip89
-\treewidthfive=\skip90
-\treewidthsix=\skip91
-\treewidthseven=\skip92
-\treewidtheight=\skip93
-\treewidthnine=\skip94
-\treewidthten=\skip95
-\treewidtheleven=\skip96
-\treewidthtwelve=\skip97
-\treewidththirteen=\skip98
-\treewidthfourteen=\skip99
-\treewidthfifteen=\skip100
-\treewidthsixteen=\skip101
-\treewidthseventeen=\skip102
-\treewidtheighteen=\skip103
-\treewidthnineteen=\skip104
-\treewidthtwenty=\skip105
-\daughteroffsetone=\skip106
-\daughteroffsettwo=\skip107
-\daughteroffsetthree=\skip108
-\daughteroffsetfour=\skip109
-\branchwidthone=\skip110
-\branchwidthtwo=\skip111
-\branchwidththree=\skip112
-\branchwidthfour=\skip113
-\parentoffset=\skip114
-\treeoffset=\skip115
-\daughteroffset=\skip116
-\branchwidth=\skip117
-\parentwidth=\skip118
-\treewidth=\skip119
-\qta=\toks22
-\qtb=\toks23
-\nbranches=\count105
-\qroofx=\count106
-\qroofy=\count107
-\@qrscratchbox=\box50
-)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
@@ -279,25 +154,33 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip46
+\fb@frw=\dimen122
+\fb@frh=\dimen123
+\FrameRule=\dimen124
+\FrameSep=\dimen125
+)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count108
-\lst@gtempboxa=\box51
-\lst@token=\toks24
-\lst@length=\count109
-\lst@currlwidth=\dimen125
-\lst@column=\count110
-\lst@pos=\count111
-\lst@lostspace=\dimen126
-\lst@width=\dimen127
-\lst@newlines=\count112
-\lst@lineno=\count113
-\lst@maxwidth=\dimen128
+\lst@mode=\count103
+\lst@gtempboxa=\box28
+\lst@token=\toks21
+\lst@length=\count104
+\lst@currlwidth=\dimen126
+\lst@column=\count105
+\lst@pos=\count106
+\lst@lostspace=\dimen127
+\lst@width=\dimen128
+\lst@newlines=\count107
+\lst@lineno=\count108
+\lst@maxwidth=\dimen129
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count114
-\lst@skipnumbers=\count115
-\lst@framebox=\box52
+\c@lstnumber=\count109
+\lst@skipnumbers=\count110
+\lst@framebox=\box29
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
@@ -323,7 +206,7 @@ Package: l3names 2012/03/04 v3494 L3 Experimental namespace for primitives
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count116
+\et@xins=\count111
 )
 Package: expl3 2012/04/23 v3570 L3 Experimental code bundle wrapper
 
@@ -349,19 +232,19 @@ Package: l3seq 2012/03/04 v3490 L3 Experimental sequences and stacks
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3int.sty
 Package: l3int 2012/03/04 v3490 L3 Experimental integers
-\c_max_int=\count117
-\l_tmpa_int=\count118
-\l_tmpb_int=\count119
-\l_tmpc_int=\count120
-\g_tmpa_int=\count121
-\g_tmpb_int=\count122
+\c_max_int=\count112
+\l_tmpa_int=\count113
+\l_tmpb_int=\count114
+\l_tmpc_int=\count115
+\g_tmpa_int=\count116
+\g_tmpb_int=\count117
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3quark.sty
 Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3prg.sty
 Package: l3prg 2012/03/04 v3490 L3 Experimental control structures
-\g_prg_map_int=\count123
+\g_prg_map_int=\count118
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3clist.sty
 Package: l3clist 2012/03/04 v3490 L3 Experimental comma separated lists
@@ -377,153 +260,153 @@ Package: l3msg 2012/04/23 v3568 L3 Experimental messages
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3file.sty
 Package: l3file 2012/03/09 v3520 L3 Experimental file and I/O operations
-\l_iow_stream_int=\count124
-\l_iow_line_length_int=\count125
-\l_iow_target_length_int=\count126
-\l_iow_current_line_int=\count127
-\l_iow_current_word_int=\count128
-\l_iow_current_indentation_int=\count129
+\l_iow_stream_int=\count119
+\l_iow_line_length_int=\count120
+\l_iow_target_length_int=\count121
+\l_iow_current_line_int=\count122
+\l_iow_current_word_int=\count123
+\l_iow_current_indentation_int=\count124
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3skip.sty
 Package: l3skip 2012/03/05 v3499 L3 Experimental dimensions and skips
-\l_tmpa_dim=\dimen129
-\l_tmpb_dim=\dimen130
-\l_tmpc_dim=\dimen131
-\g_tmpa_dim=\dimen132
-\g_tmpb_dim=\dimen133
-\l_tmpa_skip=\skip120
-\l_tmpb_skip=\skip121
-\l_tmpc_skip=\skip122
-\g_tmpa_skip=\skip123
-\g_tmpb_skip=\skip124
+\l_tmpa_dim=\dimen130
+\l_tmpb_dim=\dimen131
+\l_tmpc_dim=\dimen132
+\g_tmpa_dim=\dimen133
+\g_tmpb_dim=\dimen134
+\l_tmpa_skip=\skip47
+\l_tmpb_skip=\skip48
+\l_tmpc_skip=\skip49
+\g_tmpa_skip=\skip50
+\g_tmpb_skip=\skip51
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3keys.sty
 Package: l3keys 2012/03/03 v3487 L3 Experimental key-value interfaces
-\g_keyval_level_int=\count130
-\l_keys_choice_int=\count131
+\g_keyval_level_int=\count125
+\l_keys_choice_int=\count126
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3fp.sty
 Package: l3fp 2012/03/04 v3490 L3 Experimental floating-point operations
-\c_one_hundred_million=\count132
-\c_five_hundred_million=\count133
-\c_one_thousand_million=\count134
-\c_fp_pi_by_four_decimal_int=\count135
-\c_fp_pi_by_four_extended_int=\count136
-\c_fp_pi_decimal_int=\count137
-\c_fp_pi_extended_int=\count138
-\c_fp_two_pi_decimal_int=\count139
-\c_fp_two_pi_extended_int=\count140
-\l_fp_count_int=\count141
-\l_fp_div_offset_int=\count142
-\l_fp_exp_integer_int=\count143
-\l_fp_exp_decimal_int=\count144
-\l_fp_exp_extended_int=\count145
-\l_fp_exp_exponent_int=\count146
-\l_fp_input_a_sign_int=\count147
-\l_fp_input_a_integer_int=\count148
-\l_fp_input_a_decimal_int=\count149
-\l_fp_input_a_exponent_int=\count150
-\l_fp_input_b_sign_int=\count151
-\l_fp_input_b_integer_int=\count152
-\l_fp_input_b_decimal_int=\count153
-\l_fp_input_b_exponent_int=\count154
-\l_fp_input_a_extended_int=\count155
-\l_fp_input_b_extended_int=\count156
-\l_fp_mul_a_i_int=\count157
-\l_fp_mul_a_ii_int=\count158
-\l_fp_mul_a_iii_int=\count159
-\l_fp_mul_a_iv_int=\count160
-\l_fp_mul_a_v_int=\count161
-\l_fp_mul_a_vi_int=\count162
-\l_fp_mul_b_i_int=\count163
-\l_fp_mul_b_ii_int=\count164
-\l_fp_mul_b_iii_int=\count165
-\l_fp_mul_b_iv_int=\count166
-\l_fp_mul_b_v_int=\count167
-\l_fp_mul_b_vi_int=\count168
-\l_fp_mul_output_int=\count169
-\l_fp_output_sign_int=\count170
-\l_fp_output_integer_int=\count171
-\l_fp_output_decimal_int=\count172
-\l_fp_output_exponent_int=\count173
-\l_fp_output_extended_int=\count174
-\l_fp_round_position_int=\count175
-\l_fp_round_target_int=\count176
-\l_fp_split_sign_int=\count177
-\l_fp_internal_int=\count178
-\l_fp_trig_octant_int=\count179
-\l_fp_trig_sign_int=\count180
-\l_fp_trig_decimal_int=\count181
-\l_fp_trig_extended_int=\count182
-\l_fp_internal_dim=\dimen134
-\l_fp_internal_skip=\skip125
+\c_one_hundred_million=\count127
+\c_five_hundred_million=\count128
+\c_one_thousand_million=\count129
+\c_fp_pi_by_four_decimal_int=\count130
+\c_fp_pi_by_four_extended_int=\count131
+\c_fp_pi_decimal_int=\count132
+\c_fp_pi_extended_int=\count133
+\c_fp_two_pi_decimal_int=\count134
+\c_fp_two_pi_extended_int=\count135
+\l_fp_count_int=\count136
+\l_fp_div_offset_int=\count137
+\l_fp_exp_integer_int=\count138
+\l_fp_exp_decimal_int=\count139
+\l_fp_exp_extended_int=\count140
+\l_fp_exp_exponent_int=\count141
+\l_fp_input_a_sign_int=\count142
+\l_fp_input_a_integer_int=\count143
+\l_fp_input_a_decimal_int=\count144
+\l_fp_input_a_exponent_int=\count145
+\l_fp_input_b_sign_int=\count146
+\l_fp_input_b_integer_int=\count147
+\l_fp_input_b_decimal_int=\count148
+\l_fp_input_b_exponent_int=\count149
+\l_fp_input_a_extended_int=\count150
+\l_fp_input_b_extended_int=\count151
+\l_fp_mul_a_i_int=\count152
+\l_fp_mul_a_ii_int=\count153
+\l_fp_mul_a_iii_int=\count154
+\l_fp_mul_a_iv_int=\count155
+\l_fp_mul_a_v_int=\count156
+\l_fp_mul_a_vi_int=\count157
+\l_fp_mul_b_i_int=\count158
+\l_fp_mul_b_ii_int=\count159
+\l_fp_mul_b_iii_int=\count160
+\l_fp_mul_b_iv_int=\count161
+\l_fp_mul_b_v_int=\count162
+\l_fp_mul_b_vi_int=\count163
+\l_fp_mul_output_int=\count164
+\l_fp_output_sign_int=\count165
+\l_fp_output_integer_int=\count166
+\l_fp_output_decimal_int=\count167
+\l_fp_output_exponent_int=\count168
+\l_fp_output_extended_int=\count169
+\l_fp_round_position_int=\count170
+\l_fp_round_target_int=\count171
+\l_fp_split_sign_int=\count172
+\l_fp_internal_int=\count173
+\l_fp_trig_octant_int=\count174
+\l_fp_trig_sign_int=\count175
+\l_fp_trig_decimal_int=\count176
+\l_fp_trig_extended_int=\count177
+\l_fp_internal_dim=\dimen135
+\l_fp_internal_skip=\skip52
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3box.sty
 Package: l3box 2012/03/04 v3490 L3 Experimental boxes
-\l_tmpb_box=\box53
-\l_box_top_dim=\dimen135
-\l_box_bottom_dim=\dimen136
-\l_box_left_dim=\dimen137
-\l_box_right_dim=\dimen138
-\l_box_top_new_dim=\dimen139
-\l_box_bottom_new_dim=\dimen140
-\l_box_left_new_dim=\dimen141
-\l_box_right_new_dim=\dimen142
-\l_box_internal_box=\box54
+\l_tmpb_box=\box30
+\l_box_top_dim=\dimen136
+\l_box_bottom_dim=\dimen137
+\l_box_left_dim=\dimen138
+\l_box_right_dim=\dimen139
+\l_box_top_new_dim=\dimen140
+\l_box_bottom_new_dim=\dimen141
+\l_box_left_new_dim=\dimen142
+\l_box_right_new_dim=\dimen143
+\l_box_internal_box=\box31
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3coffins.sty
 Package: l3coffins 2012/03/03 v3482 L3 Experimental coffin code layer
-\l_coffin_internal_box=\box55
-\l_coffin_internal_dim=\dimen143
-\l_coffin_offset_x_dim=\dimen144
-\l_coffin_offset_y_dim=\dimen145
-\l_coffin_x_dim=\dimen146
-\l_coffin_y_dim=\dimen147
-\l_coffin_x_prime_dim=\dimen148
-\l_coffin_y_prime_dim=\dimen149
-\l_coffin_Depth_dim=\dimen150
-\l_coffin_Height_dim=\dimen151
-\l_coffin_TotalHeight_dim=\dimen152
-\l_coffin_Width_dim=\dimen153
-\c_empty_coffin=\box56
-\l_coffin_aligned_coffin=\box57
-\l_coffin_aligned_internal_coffin=\box58
-\l_coffin_bounding_shift_dim=\dimen154
-\l_coffin_left_corner_dim=\dimen155
-\l_coffin_right_corner_dim=\dimen156
-\l_coffin_bottom_corner_dim=\dimen157
-\l_coffin_top_corner_dim=\dimen158
-\l_coffin_scaled_total_height_dim=\dimen159
-\l_coffin_scaled_width_dim=\dimen160
-\l_coffin_display_coffin=\box59
-\l_coffin_display_coord_coffin=\box60
-\l_coffin_display_pole_coffin=\box61
-\l_coffin_display_offset_dim=\dimen161
-\l_coffin_display_x_dim=\dimen162
-\l_coffin_display_y_dim=\dimen163
+\l_coffin_internal_box=\box32
+\l_coffin_internal_dim=\dimen144
+\l_coffin_offset_x_dim=\dimen145
+\l_coffin_offset_y_dim=\dimen146
+\l_coffin_x_dim=\dimen147
+\l_coffin_y_dim=\dimen148
+\l_coffin_x_prime_dim=\dimen149
+\l_coffin_y_prime_dim=\dimen150
+\l_coffin_Depth_dim=\dimen151
+\l_coffin_Height_dim=\dimen152
+\l_coffin_TotalHeight_dim=\dimen153
+\l_coffin_Width_dim=\dimen154
+\c_empty_coffin=\box33
+\l_coffin_aligned_coffin=\box34
+\l_coffin_aligned_internal_coffin=\box35
+\l_coffin_bounding_shift_dim=\dimen155
+\l_coffin_left_corner_dim=\dimen156
+\l_coffin_right_corner_dim=\dimen157
+\l_coffin_bottom_corner_dim=\dimen158
+\l_coffin_top_corner_dim=\dimen159
+\l_coffin_scaled_total_height_dim=\dimen160
+\l_coffin_scaled_width_dim=\dimen161
+\l_coffin_display_coffin=\box36
+\l_coffin_display_coord_coffin=\box37
+\l_coffin_display_pole_coffin=\box38
+\l_coffin_display_offset_dim=\dimen162
+\l_coffin_display_x_dim=\dimen163
+\l_coffin_display_y_dim=\dimen164
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3color.sty
 Package: l3color 2011/09/07 v2776 L3 Experimental colour support
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3luatex.sty
 Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
-\g_cctab_allocate_int=\count183
-\g_cctab_stack_int=\count184
+\g_cctab_allocate_int=\count178
+\g_cctab_stack_int=\count179
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2012/04/23 v3570 L3 Experimental document command parser
-\l_xparse_current_arg_int=\count185
-\l_xparse_m_args_int=\count186
-\l_xparse_mandatory_args_int=\count187
-\l_xparse_processor_int=\count188
-\l_xparse_v_nesting_int=\count189
+\l_xparse_current_arg_int=\count180
+\l_xparse_m_args_int=\count181
+\l_xparse_mandatory_args_int=\count182
+\l_xparse_processor_int=\count183
+\l_xparse_v_nesting_int=\count184
 )
-\l_fontspec_script_int=\count190
-\l_fontspec_language_int=\count191
-\l_fontspec_strnum_int=\count192
-\l_fontspec_tmpa_dim=\dimen164
-\l_fontspec_tmpb_dim=\dimen165
-\l_fontspec_tmpc_dim=\dimen166
+\l_fontspec_script_int=\count185
+\l_fontspec_language_int=\count186
+\l_fontspec_strnum_int=\count187
+\l_fontspec_tmpa_dim=\dimen165
+\l_fontspec_tmpb_dim=\dimen166
+\l_fontspec_tmpc_dim=\dimen167
 Variant \tl_gset:cV already defined; not changing it on line 66
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
@@ -578,9 +461,9 @@ LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
 (/usr/local/texlive/2012/texmf-dist/tex/latex/euenc/eu1lmss.fd
 File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-\tipaTiiicode=\count193
-\tipasavetokens=\toks25
-\tipachecktokens=\toks26
+\tipaTiiicode=\count188
+\tipasavetokens=\toks22
+\tipachecktokens=\toks23
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -688,7 +571,7 @@ File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 .................................................
 Variant \prop_gput:cnV already defined; not changing it on line 485
 Variant \prop_gput:cnx already defined; not changing it on line 486
-\l_fontspec_tmp_int=\count194
+\l_fontspec_tmp_int=\count189
 LaTeX Info: Redefining \itshape on input line 1893.
 LaTeX Info: Redefining \slshape on input line 1897.
 LaTeX Info: Redefining \scshape on input line 1901.
@@ -748,23 +631,23 @@ s
 . Defining document command \textsupersubscript with arg. spec. 'sO{l}mm' on
 . line 140.
 .................................................
-\subsupersep=\dimen167
+\subsupersep=\dimen168
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/metalogo/metalogo.sty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
-\xl@everylogo=\toks27
-\xl@@everylogo=\toks28
+\xl@everylogo=\toks24
+\xl@@everylogo=\toks25
 LaTeX Info: Redefining \TeX on input line 193.
 LaTeX Info: Redefining \LaTeX on input line 202.
 LaTeX Info: Redefining \LaTeXe on input line 219.
 )
-\xxt@tempbox=\box62
+\xxt@tempbox=\box39
 )
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font Hoefler Text does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_Hoefler Text_int=\count195
+\g_fontspec_family_Hoefler Text_int=\count190
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -811,7 +694,7 @@ LaTeX Info: Redefining \LaTeXe on input line 219.
 . 
 . Gill Sans scale = 0.9475554560.
 .................................................
-\g_fontspec_family_Gill Sans_int=\count196
+\g_fontspec_family_Gill Sans_int=\count191
 .................................................
 . fontspec info: "set-scale"
 . 
@@ -862,7 +745,7 @@ LaTeX Info: Redefining \LaTeXe on input line 219.
 . 
 . Andale Mono scale = 0.8364216720.
 .................................................
-\g_fontspec_family_Andale Mono_int=\count197
+\g_fontspec_family_Andale Mono_int=\count192
 .................................................
 . fontspec info: "set-scale"
 . 
@@ -957,7 +840,7 @@ LaTeX Font Info:    ... okay on input line 29.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count198
+\c@lstlisting=\count193
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1042,26 +925,53 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
 ] [2]
-File: eudistance.jpg Graphic file (type QTm)
-
-<use  "eudistance.jpg" > [3] [4] [5]
-File: scatter.jpg Graphic file (type QTm)
- <use  "scatter.jpg" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7] [8] (./555ps4.aux)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3
+
+] [4] [5]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6
+
+] [7]
+File: eudistance.jpg Graphic file (type QTm)
+ <use  "eudistance.jpg" >
+File: maxtree.jpg Graphic file (type QTm)
+ <use  "maxtree.jpg" >
+File: mintree.jpg Graphic file (type QTm)
+ <use  "mintree.jpg" >
+File: chart12.jpg Graphic file (type QTm)
+
+<use  "chart12.jpg" >
+File: chart910.jpg Graphic file (type QTm)
+ <use  "chart910.jpg" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8
+
+] [9]
+File: scatter.jpg Graphic file (type QTm)
+ <use  "scatter.jpg" > [10
+
+] [11] (./555ps4.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16537 strings out of 494004
- 339264 string characters out of 3150890
- 439539 words of memory out of 3000000
- 19581 multiletter control sequences out of 15000+200000
- 11777 words of font info for 77 fonts, out of 3000000 for 9000
+ 16288 strings out of 494004
+ 335818 string characters out of 3150890
+ 434660 words of memory out of 3000000
+ 19339 multiletter control sequences out of 15000+200000
+ 11769 words of font info for 76 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 36i,20n,46p,901b,1531s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,10n,46p,901b,1138s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on 555ps4.pdf (8 pages).
+Output written on 555ps4.pdf (11 pages).
