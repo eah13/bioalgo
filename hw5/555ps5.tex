@@ -1,0 +1,81 @@
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[12pt]{article}
+\usepackage{geometry}                
+\geometry{letterpaper}                   
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{framed}
+\usepackage{listings}
+\lstset{language=Octave,
+  basicstyle=\footnotesize,
+  tabsize=3,
+  language=python,
+  breaklines=true,
+  mathescape=true,
+  commentstyle=\color{blue},
+  morecomment=[l]{\#}}
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Hoefler Text}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans}
+\setmonofont[Scale=MatchLowercase]{Andale Mono}
+
+
+\author{Elliott Hauser}
+\title{Comp 555 Problem Set 4}
+\begin{document}
+\maketitle
+
+\section*{Question 1}
+1. Consider the following four sequences 
+Chimp GTTG
+Gorilla  GTCA
+Human  ACCA
+Orangutan ATTA
+Assume the following scoring matrix
+A T G C
+A 0 2 3 8
+T 2 0 1 3
+G 3 1 0 3
+C 8 3 3 0
+
+a. For these four species, draw any six binary tree topologies. Make 
+at least two different tree structures. 
+b. Apply Sankoff’s algorithm to the topologies created in (a) to 
+determine the weighted parsimony score. What is the minimum parsimony 
+score? What is the most plausible topology of the six you created? 
+Why?
+c. Apply Fitch’s algorithm to the same topologies. Find the sequences 
+for the roots for all. Which is the one with the least parsimony 
+score. 
+d. Do b) and c) give same results. Why or Why not?
+
+\section*{Question 2}
+2. Consider the following distance matrix
+A B C D E F
+A 0 18 15 21 6 16
+B 0 23 19 20 24
+C 0 26 17 19
+D 0 23 27
+E 0 18
+F 0
+a) Is this distance matrix additive ? Why or why not?
+b) Design an efficient method to determine “delta” for an iteration. 
+c) Find “delta” and i,j,k for the first two iterations.
+
+\section*{Question 3}
+3. Book 10.8
+
+
+4. Book 11.6
+
+
+5. In problem 4 (book 11.6), for the sequence 112122, what is the 
+probability that third 1 came from die D1
+
+
+\end{document}
