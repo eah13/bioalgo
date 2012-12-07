@@ -52,28 +52,36 @@ Six binary tree topologies with two different tree structures are shown in Figur
 \end{figure}
 
 \paragraph{b.}
-\label{par:1b}
-b. Apply Sankoff’s algorithm to the topologies created in (a) to 
-determine the weighted parsimony score. What is the minimum parsimony 
-score? What is the most plausible topology of the six you created? 
-Why?
+
+I was only able to complete the Sankoff algorithm on one tree due to time constraints.  My results are shown in Figure~\ref{sankoff}.
+
+\begin{figure}[htb]
+	\begin{center}
+		\includegraphics[width=3in, angle=-90]{sankoff.jpg}
+	\end{center}
+	\caption{The Sankoff algorithm applied to the topology in the lower left of Figure~\ref{trees}.}
+	\label{sankoff}
+\end{figure}
 
 \paragraph{c.}
-\label{par:1c}
 
+I was only able to complete the Fitch algorithm on one tree due to time constraints.  My results are shown in Figure~\ref{fitch}.
 
-c. Apply Fitch’s algorithm to the same topologies. Find the sequences 
-for the roots for all. Which is the one with the least parsimony 
-score. 
+\begin{figure}[htb]
+	\begin{center}
+		\includegraphics[width=3in, angle=-90]{fitch.jpg}
+	\end{center}
+	\caption{The Fitch algorithm applied to the topology in the lower left of Figure~\ref{trees}.}
+	\label{fitch}
+\end{figure}
 
 \paragraph{d.} 
-d. Do b) and c) give same results. Why or Why not?
+
+The algorithms produce identical results because they are algoithmic twins.  That is, the methods they use to calculate scores and assign vertex labels are computationally equivalent.
 
 \clearpage
 \section*{Question 2}
-\paragraph{a.} % (fold)
-
-% a) Is this distance matrix additive ? Why or why not?
+\paragraph{a.} 
 A matrix is additive if there exists a tree $T$ with $d_{i,j}(T) = D_{i,j}$.  But an efficient way to determine this is the Four point theorem, which states that, for every combination of leaves $i$, $j$, $k$, and $l$, the sums $D_{i,j}, D_{j,k},$ and $ D_{k,l}$ yeild two identical sums, with the third sum smaller than these two.
 
 To test this, I wrote a simple algorithm in Python.  It is shown in Figure~\ref{fourpoint}.  It confirms that every combinaion of  $i$, $j$, $k$, and $l$ satisfy the four point condition; the matrix is thus additive.
@@ -117,8 +125,7 @@ def four_point():
 \end{figure}
 
 
-\paragraph{b.} % (fold)
-% b) Design an efficient method to determine “delta” for an iteration. 
+\paragraph{b.} 
 An efficient method for finding the $\delta$ for an interation is given by the pseudocode in Figure~\ref{finddelta}
 
 \begin{figure}[htb]

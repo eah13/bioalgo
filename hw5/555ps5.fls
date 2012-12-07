@@ -187,6 +187,13 @@ INPUT trees.jpg
 INPUT ./trees.jpg
 OUTPUT 555ps5.pdf
 INPUT ./trees.jpg
+INPUT sankoff.jpg
+INPUT ./sankoff.jpg
+INPUT ./sankoff.jpg
+INPUT fitch.jpg
+INPUT ./fitch.jpg
+INPUT ./fitch.jpg
+INPUT /usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -204,7 +211,6 @@ INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

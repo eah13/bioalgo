@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1354853090 "555ps5.tex" "555ps5.pdf" "555ps5" 1354853091
+["pdflatex"] 1354855838 "555ps5.tex" "555ps5.pdf" "555ps5" 1354855839
   "./viterbi.jpg" 1354844948 25563 389574793f0cbc9cfee1e8676a595aaa ""
   "/usr/local/texlive/2012/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -142,11 +142,13 @@
   "/usr/local/texlive/2012/texmf-var/web2c/pdftex/pdflatex.fmt" 1341108725 3691572 80746d7cec090b0770bc87079bef471d ""
   "/usr/local/texlive/2012/texmf.cnf" 1341108668 572 7ea7194897937febeb63145e1c3a1f03 ""
   "/usr/local/texlive/2012/texmf/web2c/texmf.cnf" 1336865692 31299 729e216d9b945005c0d4b079c0500bc9 ""
-  "555ps5.aux" 1354853090 2664 f835f392ed71544b88ea596ef70c7474 ""
-  "555ps5.tex" 1354853089 9587 d2c22dd00ec1100a8bbc5f6d18e53062 ""
+  "555ps5.aux" 1354855839 3022 3e4b92a435ca3fd2626719c071fedece ""
+  "555ps5.tex" 1354855837 9492 25e48bb109e9eb176bfbf40d903aac01 ""
   "fbcalcs.jpg" 1354842900 52594 be97ca3181ee1bdae3a70aa9d8777117 ""
+  "fitch.jpg" 1354855642 2812737 d99a818ae9a9a22236c4b2df41beffe7 ""
   "hmm.jpg" 1354759150 33241 665d3e2a82c534cebfc7884733ecd5fc ""
   "onegraph.jpg" 1354747566 15886 95c1313c7a5594365cc383b5c6228e27 ""
+  "sankoff.jpg" 1354854981 2411721 3e025215826d5b954aac4fe9a1c41990 ""
   "trees.jpg" 1354833911 51295 3d75936af43e447d32e6aef57af6bf59 ""
   "twographs.jpg" 1354747448 25917 44bb1ce6822ee703465195d7e8b3672c ""
   "twoiter.jpg" 1354852886 83025 4ab3269dc653a7a7893aa2ed88e1d4be ""
