@@ -1,0 +1,390 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mat",
+				"matrix"
+			],
+			[
+				"ma",
+				"matrix"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"match",
+				"matches"
+			],
+			[
+				"m",
+				"match"
+			],
+			[
+				"pri",
+				"printline"
+			],
+			[
+				"def",
+				"defp	defprotocol"
+			],
+			[
+				"de",
+				"defn	defn"
+			],
+			[
+				"row",
+				"rowwords"
+			],
+			[
+				"bag_of",
+				"bag_of_words_not_stopwords"
+			],
+			[
+				"Fr",
+				"FreqDist"
+			],
+			[
+				"tokeni",
+				"tokenizer"
+			],
+			[
+				"train",
+				"trainset"
+			],
+			[
+				"test",
+				"testfile"
+			],
+			[
+				"sen",
+				"sentence"
+			],
+			[
+				"sente",
+				"sentences"
+			],
+			[
+				"sent",
+				"sents"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"LST",
+				"Snippet: lstlisting"
+			],
+			[
+				"para",
+				"Snippet: Paragraph"
+			],
+			[
+				"figure",
+				"Snippet: figure"
+			],
+			[
+				"list",
+				"Snippet: Listing"
+			],
+			[
+				"late",
+				"Snippet: Turn selection into LaTeX environment"
+			],
+			[
+				"latex",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"la",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"begin",
+				"Snippet: \\begin{}…\\end{}"
+			],
+			[
+				"sni",
+				"Snippet: Figure"
+			],
+			[
+				"pdf",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"buil",
+				"Build: Build"
+			],
+			[
+				"snipp",
+				"Snippet: Function"
+			],
+			[
+				"tabl",
+				"Snippet: Tabular"
+			],
+			[
+				"listing",
+				"Snippet: Listing"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"lat",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"SublimeREPL: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rep",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"defn",
+				"Snippet: defn"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/elliott/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/elliott/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/Default (OSX).sublime-keymap",
+		"/Users/elliott/git/bioalgo/hw5/distmat.py",
+		"/Users/elliott/git/bioalgo/hw5/555ps5.tex",
+		"/Users/elliott/Documents/LaTex/texthw3.tex",
+		"/Users/elliott/Library/Application Support/Sublime Text 2/Packages/User/lstlisting",
+		"/Users/elliott/Library/Application Support/Sublime Text 2/Packages/User/LaTeX.sublime-settings",
+		"/Users/elliott/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/LaTeXTools Preferences.sublime-settings",
+		"/Users/elliott/git/bioalgo/hw3/555ps3.tex",
+		"/Users/elliott/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/elliott/Library/Application Support/Sublime Text 2/Packages/User/LaTeXTools Preferences.sublime-settings",
+		"/Users/elliott/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/elliott/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/elliott/git/carpentry/ipython.py",
+		"/Users/elliott/git/carpentry/testgit.py",
+		"/Users/elliott/git/fizzbuzz/fb1",
+		"/Users/elliott/.profile",
+		"/Users/elliott/git/textmining/hw4/hw4.py",
+		"/Users/elliott/git/textmining/final/clojure/clj-ml/src/clj_ml/filters.clj",
+		"/Users/elliott/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/elliott/git/carpentry/species.txt",
+		"/Users/elliott/git/textmining/hw4/hw4a_both_processed15_train.arff",
+		"/Users/elliott/git/textmining/hw4/hw4a_both_processed15_test.arff",
+		"/Users/elliott/git/textmining/hw4/hw4a_test.arff",
+		"/Users/elliott/git/textmining/hw4/hw4a_both_processed_test.arff",
+		"/Users/elliott/git/textmining/hw4/hw4a_both_processed_train.arff",
+		"/Users/elliott/git/textmining/hw4/hw4a_train_processed.arff",
+		"/Users/elliott/git/textmining/hw4/hw4a_test_processed.arff",
+		"/Users/elliott/git/textmining/hw4/hw4a_both.arff",
+		"/Users/elliott/git/textmining/hw4/hw4a_train.arff",
+		"/Users/elliott/git/textmining/hw4/hw4_data/A/hw4a_test.csv",
+		"/Users/elliott/git/textmining/hw4/hw4_data/A/hw4a_train.csv",
+		"/Users/elliott/git/textmining/final/tokenize.py",
+		"/Users/elliott/git/textmining/final/clojure/clj-ml/src/clj_ml/core.clj",
+		"/Users/elliott/.profile.pysave",
+		"/Users/elliott/git/textmining/final/clojure/cl-ml/src/cl_ml/core.clj",
+		"/Users/elliott/git/textmining/final/clojure/cl-ml/project.clj",
+		"/Users/elliott/.python",
+		"/Users/elliott/git/textmining/.profile",
+		"/Users/elliott/git/textmining/hw4/hw4b_test.arff"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sankoff",
+			"align*",
+			"array",
+			"tabular",
+			"figure",
+			"continue",
+			"	",
+			"0",
+			"	",
+			"name",
+			"paragraph",
+			"hmm",
+			"twotrees",
+			"onetree",
+			"super+l",
+			"+b",
+			"context",
+			"comm",
+			"find",
+			"	{",
+			"find_under_",
+			"super+d",
+			"shift",
+			"super+d",
+			"+g",
+			"+b",
+			"super+d",
+			"+b",
+			"}",
+			"For",
+			"super+t",
+			"super+l",
+			"+n",
+			"a",
+			"s",
+			" d",
+			"d"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 222.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"555ps3",
+				"hw3/555ps3.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 155.0,
+	"status_bar_visible": true
+}
