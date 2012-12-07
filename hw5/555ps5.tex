@@ -14,7 +14,6 @@
 \lstset{language=Octave,
   basicstyle=\footnotesize,
   tabsize=3,
-  language=python,
   breaklines=true,
   mathescape=true,
   commentstyle=\color{blue},
@@ -52,62 +51,51 @@ Six binary tree topologies with two different tree structures are shown in Figur
 	\label{trees}
 \end{figure}
 
-\paragraph{b.} % (fold)
+\paragraph{b.}
 \label{par:1b}
 b. Apply Sankoff’s algorithm to the topologies created in (a) to 
 determine the weighted parsimony score. What is the minimum parsimony 
 score? What is the most plausible topology of the six you created? 
 Why?
-% paragraph b_ (end)
 
-\paragraph{c.} % (fold)
+\paragraph{c.}
 \label{par:1c}
 
 
 c. Apply Fitch’s algorithm to the same topologies. Find the sequences 
 for the roots for all. Which is the one with the least parsimony 
 score. 
-% paragraph paragraph_name (end)
+
+\paragraph{d.} 
 d. Do b) and c) give same results. Why or Why not?
 
-
+\clearpage
 \section*{Question 2}
-2. Consider the following distance matrix
-  A  B  C  D  E  F
-A 0 18 15 21  6 16
-B    0 23 19 20 24
-C       0 26 17 19
-D          0 23 27
-E             0 18
-F                0
-
-
-
-1,1,2,1,2,1
 \paragraph{a.} % (fold)
 
 % a) Is this distance matrix additive ? Why or why not?
 A matrix is additive if there exists a tree $T$ with $d_{i,j}(T) = D_{i,j}$.  But an efficient way to determine this is the Four point theorem, which states that, for every combination of leaves $i$, $j$, $k$, and $l$, the sums $D_{i,j}, D_{j,k},$ and $ D_{k,l}$ yeild two identical sums, with the third sum smaller than these two.
 
-To test this, I wrote a simple algorithm in Python.  It is shown in Figure~\ref{fourpoint}
+To test this, I wrote a simple algorithm in Python.  It is shown in Figure~\ref{fourpoint}.  It confirms that every combinaion of  $i$, $j$, $k$, and $l$ satisfy the four point condition; the matrix is thus additive.
 
 \begin{figure}[htb]
-	\centering
-	\begin{lstlisting}[language=Python]
+\centering
+\begin{lstlisting}[language=Python]
 def four_point():
+# Determines whether a matrix is additive by testing for the four point condidtion.  Expects matrix as a list of lists
 
-	mismatch = []
+	n = len(matrix)
 
-	for i in xrange(0,5):
-		for j in xrange(0,5):
+	for i in xrange(0,n):
+		for j in xrange(0,n):
 			if i == j:
 				continue
-			for k in xrange(0,5):
+			for k in xrange(0,n):
 				if k == j:
 					continue
 				if k == i:
 					continue
-				for l in xrange(0,5):
+				for l in xrange(0,n):
 					if l == k:
 						continue
 					if l == j:
@@ -117,39 +105,55 @@ def four_point():
 					one = matrix[i][j] + matrix[k][l]
 					two = matrix[i][k] + matrix[j][l]
 					three = matrix[i][l] + matrix[j][k]
-					lump = [one,two,three]
-					together = set(lump)
-					if len(together) != 2:
-						print i,j,k,l
-						print lump
-						print matrix[i][j]," + ",matrix[k][l]," = ",one
-						print matrix[i][k]," + ",matrix[j][l]," = ",two
-						print matrix[i][l]," + ",matrix[j][k]," = ",three
-						print together
+					lump = sorted([one,two,three])
+					if lump[1] != lump[2]:
+						print "Not additive"
 	\end{lstlisting}
+
 	\caption{An algorithm to calculate whether the four point condition holds for an $n\times n$ matrix.}
 	\label{fourpoint}
-\end{figure}
 
-% paragraph paragraph_name (end)
+
+\end{figure}
 
 
 \paragraph{b.} % (fold)
-\label{par:b_}
 % b) Design an efficient method to determine “delta” for an iteration. 
+An efficient method for finding the $\delta$ for an interation is given by the pseudocode in Figure~\ref{finddelta}
 
+\begin{figure}[htb]
+\centering
+\begin{lstlisting}
+FindDelta(matrix)
+	select any cell comtaining the minimum weight
+	combine the leaves indicated (column, row) with another leaf
+	connect all three leaves to a central node by edges $x, y, z$
+	solve the following system:
+		x + y = D(the nodes they connect)
+		y + z = D(the nodes they connect)
+		z + x = D(the nodes they connect)
+	the minium of $x, y, z$ is the minium value of $\delta$
+\end{lstlisting}
+	\caption{An algorithm to to find the trimming parameter for additive tree reconstruction.}
+	\label{finddelta}
+\end{figure}
 
-
-% paragraph b_ (end)
 \paragraph{c.} % (fold)
-\label{par:paragraph_name}
-% c) Find “delta” and i,j,k for the first two iterations.
+Figure~\ref{twoiter} shows the $\delta$ and $i,j,k$ for the first two iterations on this matrix.
+
+\begin{figure}[htb]
+	\begin{center}
+		\includegraphics[width=2.25in]{twoiter}
+	\end{center}
+	\caption{The first two iterations of additive phylogenetic reconstruction.}
+	\label{twoiter}
+\end{figure}
 
 
-% paragraph .c (end)
+
 \clearpage
 \section*{Question 3}
-For this problem let us define $i$ as the number of islands connected in a graph of arbitrary vertices. In this problem, $i=8$. Figure~\ref{twographs} shows an initial formulation of the boundaries of the problem of visiting each island.  On the left, the minumum possible trips are shown, which are $i-1 =7$.  On the right is an arrangement where the maximum number of trips must be taken.  Because of the inclusion of a central hub, many routes must be taken more than once.  In fact, were we not able to choose our starting island in this problem, this example would disprove the desired limit of 12 since the trip length is $((i-2)*2)-1=13$. 
+For this problem let us define $i$ as the number of islands connected in a graph of arbitrary vertices. In this problem, $i=8$. Figure~\ref{twographs} shows an initial formulation of the boundaries of the problem of visiting each island.  On the left, the minumum possible trips are shown, which are $i-1 =7$.  On the right is an arrangement where the maximum number of trips must be taken.  Because of the inclusion of a central hub, many routes must be taken more than once.  In fact, were we not able to choose our starting island in this problem, this example would disprove the desired limit of 12 since the trip length is $((i-2)*2)-1=13$. \\
 But the problem places no such restriction on us, and so the minumum number of trips in the pathological case is show in Figure~\ref{onegraph}, and is $((i-1)*2)-2=12$.  How can we prove that this is the maximum number of trips?  The graph shown on the right in Figure~\ref{twographs} and in Figure~\ref{onegraph} is pathological because there are the maximum amount of nodes connected by only one edge, 7, which is $i-1$, i.e. all nodes except the central node.  Each of these potentially requires two trips to visit and then keep visiting other islands, yielding $(i-1)*2=14$  But we know that all of the islands are visited before each vertex is traveled twice.  In fact, if one both starts and ends on one of the outlying islands as int he irght of Figure~\ref{onegraph}, two of these return trips can be eliminated, one each for the Start and End islands, giving us the answer of $((i-1)*2)-2=12$.  Starting on the central island, as in the right of Figure~\ref{twographs} eliminates only one of these return trips, yielding $((i-1)*2)-1=13$.
 
 \begin{figure}[htb]
@@ -172,8 +176,7 @@ But the problem places no such restriction on us, and so the minumum number of t
 \clearpage
 
 \section*{Question 4}
-% Book 11.6
-\paragraph{a}  The hidden markov model for this porblem is in Figure~\ref{hmm}
+\paragraph{a}  The hidden markov model for this problem is in Figure~\ref{hmm}
 
 \begin{figure}[htb]
 	\begin{center}
@@ -183,10 +186,36 @@ But the problem places no such restriction on us, and so the minumum number of t
 	\label{hmm}
 \end{figure}
 
-\section*{Question 5}
-% 5. In problem 4 (book 11.6), for the sequence 112122, what is the 
-% probability that third 1 came from die D1
+\paragraph{b} % 1 1 2 1 2 2 
 
+Table~\ref{viterbi} shows a Viterbi table for this sequence.  A sequnce that would satisfy this table is
+\begin{align*}
+	D_1, D_1, D_1, D_1, D_2, D_2, End
+\end{align*}
+
+The probability of this particular sequence 
+
+\begin{table}[tb]
+	\centering
+	\includegraphics[width=5in]{./viterbi.jpg}
+	\caption{The Viterbi table for problem 4.  The arrows are implicit for most of the table, pointing towards cells in bold; in the two ambiguous cases arrows are indicated, showing two possible paths.}
+	\label{viterbi}
+\end{table}
+
+
+
+\paragraph{c} 
+The second sequence of states implied by Table~\ref{viterbi} is
+\[
+	D_1, D_1, D_2, D_2, D_2, D_2, End
+\]
+
+The probability of this sequence occuring, independent of the emisions above, is given by
+$$\begin{array}{cccccccccccccccccccc}
+	\text{start}& &D_1& &D_1& &D_2& &D_2& &D_2& &D_2& &\text{end}&\\
+	&.5&\cdot&.5&\cdot&.5&\cdot&.25&\cdot&.5&\cdot&.5&\cdot&.5&\cdot&.25&= 0.0009765\\
+\end{array}$$
+\section*{Question 5}
 The probability that state $k$ caused emission $x$ at moment $i$ is given by
 \[
 	 P(\pi_i = k|x) = \frac{f_{k}(i) \cdot b_k(i)}{P(x|\pi)}
@@ -204,13 +233,24 @@ Finally,
 	P(x)=\sum_\pi P(x|\pi)
 \]
 I calculate these three terms, respectively, as
-$$\begin{array}{ccc}
-	f_k(x_4)= \\
-	b_k(x_4)= \\
-	P(x) = 
-\end{array}$$
+\begin{align*}
+	f_{D_1}(x_4)=& 0.005127 \\
+	b_{D_1}(x_4)=& 0.017578\\
+	P(x) =& 0.000159
+\end{align*}
 This yields  % ############# need real numbers here.
 \[
-	P(\pi_i = k|x) = \frac{1 \cdot 1}{1}
+	P(\pi_i = k|x) = \frac{0.005127 \cdot 0.017578}{0.000159} = 0.566807
 \]
+
+This means that there's greater than 56\% chance that the dealer rolled the third 1 from $D_1$.  This makes intuitive sense: there are only two choices at that point, and the calculations I have slightly favor $D_1$ at that roll.  The tables I used for these calculations are shown in Table~\ref{fbcalcs}.
+
+\begin{table}[hbt]
+	\begin{center}
+		\includegraphics[width=5in]{fbcalcs.jpg}
+	\end{center}
+	\caption{Supporting calculations for $f_{D_1}(x_4),b_{D_1}(x_4),$ and $P(x)$ }
+	\label{fbcalcs}
+\end{table}
+
 \end{document}
