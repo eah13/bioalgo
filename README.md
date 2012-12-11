@@ -21,6 +21,7 @@ As mentioned above, the pdf files of each assignment are in the corresponding fo
 	* `euler.py`: Finding a Euler path (aka tour) in a directed graph with help from [networkx](http://networkx.lanl.gov).
 * Homework 4
 	* This is the one where I discovered [lstlisting](https://github.com/eah13/bioalgo/blob/master/hw4/555ps4.tex#L39), the best way I've found to put code or pseudocode into LaTeX.
+	* [My best looking Python program yet](https://github.com/eah13/bioalgo/blob/master/hw4/q6.py).  Starting to look more Pythonic.
 * Homework 5
 	* aka. "The Effects of Sleep Deprivation on Homework quality."  Nothing to brag about with LaTeX really, but I did make a sweet [Hidden Markov Model diagram](https://github.com/eah13/bioalgo/blob/master/hw5/hmm.jpg) with Omnigraffle.  Oh, and by now I also rock [equations](https://github.com/eah13/bioalgo/blob/master/hw5/555ps5.tex#L226) like no sweat.  That's one of the most fun parts of LaTeX: writing sweet looking math.
 
