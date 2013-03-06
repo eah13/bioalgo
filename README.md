@@ -8,6 +8,8 @@ If you're curious what I was up to, the PDFs under each of the homework folders 
 
 If you're a Bioinformatics Algorithms afficionado, feel free to learn the easy way what packages will help you make hamiltonian paths, spectral convolutions, etc.  In some cases I copped out and used Excel or Omnigraffle, usually because of time constraints.  Homework 5 was completed in about 6 frantic hours and, embarrassingly, many of the graphs are iPhone pictures of pencil diagrams.  You do what you've gotta do in a pinch.
 
+![Eulerian Path](http://www.unc.edu/~eah13/eupath.png)
+
 ### Content Highlights
 
 As mentioned above, the pdf files of each assignment are in the corresponding folder.  Take a peek.  You know you're curious...
